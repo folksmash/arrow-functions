@@ -186,6 +186,6 @@ console.log(joe.scopeArrow());
 // 1. What is "this" when joe.scope() is invoked?
 // nothing, it is undefined 
 // 2. What is "this" when joe.scopeArrow() is invoked?
-// 
+// this is refering to the entire page
 // 3. Explain why "this" is different when an arrow function is used.
-//
+// arrow functions need to be stored in a variable because they're anonymous 
